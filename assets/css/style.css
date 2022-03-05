@@ -348,7 +348,7 @@ ul{
     top: 0;
 }
 .download_overlay{
-    background: url(../images/downloadbg.png) repeat-y;
+    background: #B0F2B6;
     width:100%;
     height: 100%;
     position: absolute;
