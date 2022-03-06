@@ -358,7 +358,7 @@
                                         <div class="reviews_item_icon1 pull-right text-right">  “</div>
                                     </div>
                                 </div><!-- End off col-md-6 -->
-
+                            </div>
                             </div>
                         </div><!-- End off Main People -->
                     </div><!-- End off row -->
@@ -373,7 +373,7 @@
                     <div class="row">
                         <div class="main_download ">
                             <div class="col-md-6">
-                                <div class="download_item roomy-100">
+                                <div class="download_item roomy-100 download_app">
                                     <h2 class="text-black">Comment rejoindre l'aventure ?</h2>
                                     <h5 class="text-black m-top-20">Vous n'avez juste qu'à rechercher ScanEco sur le Playstore, ou bien en cliquant sous le bouton ci-dessous.</h5>
 
@@ -383,7 +383,7 @@
                                 </div>
                             </div>
                             <div class="col-md-5">
-                                <div class="download_item m-top-70">
+                                <div class="download_item m-top-70 download_app_logo">
                                     <img class="app_right" src="assets/images/imageFin.png" alt="" />
                                 </div>
                             </div>
@@ -494,7 +494,22 @@
                 opacity: 1;
                 transition: 3s;    
             }
-         
+            @media (max-width: 992px) {
+                .download_app{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-bottom: 0px !important;
+                    text-align: center;
+                }
+                .download_app_logo{
+                    text-align: center;
+                    margin-top: 0 !important;
+                    margin-bottom: 75px !important;
+
+                    padding-top: 0px !important;
+                }
+            }
         </style> 
         <!-- JS includes -->
 
